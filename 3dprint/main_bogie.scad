@@ -26,7 +26,7 @@ translate([-31.1,-40,-1])cylinder(d=4,h=25);
 }
 
 
-translate([112,-60,0])rotate([0,0,180])
+translate([112,-57,0])rotate([0,0,180])
 difference(){
 translate([-8,-11,0])cube([16,22,15]);
 difference(){
@@ -41,4 +41,5 @@ cylinder(d=2.2,h=21,$fn=12);
 translate([-9,8,7.5])rotate([0,90,0])
 cylinder(d=2.8,h=10,$fn=12);
 }
+translate([104,-46,0])cube([16,4,6]);
  
