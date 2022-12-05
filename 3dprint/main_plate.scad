@@ -1,7 +1,4 @@
-$fn=60;
-
-//main
-
+$fn=60;    
 difference(){
 union(){
 scale([2,2,1.25])
@@ -63,4 +60,8 @@ translate([0,0,68+20])cylinder(d=6.1,h=4);
 translate([0,0,68-1])cylinder(d=1.5,h=22);    
 }
 }
+translate([38,-3,-1])cylinder(d=3.2,h=10);
+translate([-38,-3,-1])cylinder(d=3.2,h=10); 
+translate([38,71,-1])cylinder(d=3.2,h=10); 
+translate([-38,71,-1])cylinder(d=3.2,h=10); 
 }
