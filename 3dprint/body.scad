@@ -18,7 +18,7 @@ translate([-16.5,112.5,0])cube([33,2.5,28]);
 $fn=12;
 
 difference(){
-translate([0,34,1.5])cube([88,86,3],center=true);
+translate([0,34,2.5])cube([88,86,5],center=true);
 translate([0,34,2.5])cube([68,86,6],center=true);
 translate([0,34,2.5])cube([88,66,6],center=true);
 translate([38,-3,-1])cylinder(d=3,h=10);
