@@ -14,15 +14,13 @@ translate([38,-20,0])cylinder(d=16,h=6);
 translate([112,-42,0])cylinder(d=16,h=6);
 }
 translate([38,-20,0])cylinder(d=16,h=10);
+translate([-39.1,-47,0])cube([16,20,14]);
 }
 translate([38,-20,-1])cylinder(d=6,h=18);
+translate([-40,-52,4])cube([18,20,6]);
+translate([-31.1,-40,-1])cylinder(d=4,h=25);
 }
 
-difference(){
-translate([-39.1,-47,0])cube([16,20,14]);
-translate([-40,-52,4])cube([18,20,6]);
-translate([-31.1,-40,-1])cylinder(d=4,h=25);    
-}
 translate([112,-57,0])rotate([0,0,180])
 difference(){
 translate([-8,-5,0])cube([16,22,15]);
